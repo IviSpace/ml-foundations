@@ -24,3 +24,12 @@ This repository documents my foundations in applied machine learning using Pytho
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+
+### Day 02 — IMDB Sentiment Baseline
+- Model: TF-IDF + Logistic Regression
+- Accuracy: 86.4%
+- ROC–AUC: 0.94
+
+This notebook demonstrates a complete NLP pipeline:
+preprocessing → vectorisation → classification → evaluation.
