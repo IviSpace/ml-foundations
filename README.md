@@ -33,3 +33,29 @@ This repository documents my foundations in applied machine learning using Pytho
 
 This notebook demonstrates a complete NLP pipeline:
 preprocessing → vectorisation → classification → evaluation.
+
+### DAY 03 - Plan
+1.Imports
+2.Folder setup
+3.Real audio creation
+4.Spoof audio generation
+5.Feature extraction (next)
+6.Classifier + EER (next)
+
+### Day 03 — Audio Spoofing Baseline (Log-Mel + EER)
+
+This experiment validates a minimal audio deepfake detection pipeline.
+
+**Approach**
+- Loaded real (bona fide) and spoofed speech samples
+- Extracted log-mel spectrograms from audio signals
+- Applied temporal mean pooling to obtain fixed-length feature vectors
+- Trained a lightweight Logistic Regression classifier
+
+**Evaluation**
+- Performance evaluated using Equal Error Rate (EER), which is commonly used in spoofing detection
+- Visualised score distributions for real vs spoofed speech to inspect class separation
+
+**Key Learning**
+This experiment demonstrates that audio deepfake detection follows the same core ML pipeline as NLP tasks:
+feature extraction → classification → evaluation, with modality-specific representations.
