@@ -46,15 +46,14 @@ Special terms like
 This notebook demonstrates a complete NLP pipeline:
 preprocessing → vectorisation → classification → evaluation.
 
-### DAY 03 - Plan
+### Day 03 — Audio Spoofing Baseline (Log-Mel + EER)
+-Plan
 1.Imports
 2.Folder setup
 3.Real audio creation
 4.Spoof audio generation
 5.Feature extraction (next)
 6.Classifier + EER (next)
-
-### Day 03 — Audio Spoofing Baseline (Log-Mel + EER)
 
 This experiment validates a minimal audio deepfake detection pipeline.
 
