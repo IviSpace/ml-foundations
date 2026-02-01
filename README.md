@@ -26,6 +26,18 @@ This repository documents my foundations in applied machine learning using Pytho
    pip install -r requirements.txt
 
 
+### Day 00 - Concepts of Audio Processing
+**Key Learning**
+This is an experiment to get in to introduction of interperatation of audio data
+Special terms like 
+            - Frequncy
+            - Intersity(Amplitude)
+            - Sample Rate
+            - Spectrogram
+            - Mel-Spectrogram 
+            
+
+
 ### Day 02 — IMDB Sentiment Baseline
 - Model: TF-IDF + Logistic Regression
 - Accuracy: 86.4%
